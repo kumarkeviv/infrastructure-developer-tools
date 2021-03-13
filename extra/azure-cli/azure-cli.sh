@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+curl -L https://aka.ms/InstallAzureCli | bash
