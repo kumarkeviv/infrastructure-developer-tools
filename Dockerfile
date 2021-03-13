@@ -21,7 +21,7 @@ ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 COPY extra /extra
 
 RUN apk update && apk upgrade && \
-  apk add --no-cache python3 python3-dev bash git openssh-client openssl ca-certificates tar wget unzip py3-pip curl && \
+  apk add --no-cache python2 python3 python3-dev bash git openssh-client openssl ca-certificates tar wget unzip py3-pip curl && \
   pip3 install --upgrade pip && \
   /extra/aws-cli/aws-cli.sh && \
   /extra/azure-cli/azure-cli.sh && \
