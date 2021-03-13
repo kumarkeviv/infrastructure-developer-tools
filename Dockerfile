@@ -23,7 +23,7 @@ COPY extra /extra
 RUN apk update && apk upgrade && \
   apk add --no-cache python3 python3-dev bash git openssh-client openssl ca-certificates tar wget unzip py3-pip curl && \
   pip3 install --upgrade pip && \
-  pip3 install awscli=={AWS_CLI_VERSION} && \
+  pip3 install awscli==${AWS_CLI_VERSION} && \
   /extra/ansible/ansible.sh && \
   /extra/terraform/terraform.sh && \
   /extra/vault/vault.sh && \
