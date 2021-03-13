@@ -8,9 +8,10 @@ ENV PASSLIB_VERSION="1.7.4"
 ENV BCRYPT_VERSION="3.2.0"
 ENV TERRAFORM_VERSION="0.14.7"
 ENV GOOGLE_SDK_VERSION="330.0.0"
-ENV AWS_CLI_VERSION="2.1.29"
+ENV AWS_CLI_VERSION="1.19.27"
 ENV AZURE_CLI_VERSION="330.0.0"
 ENV KUBECTL_VERSION="1.20.0"
+ENV KUBECTX_VERSION="0.9.3"
 ENV HELM_VERSION="3.5.2"
 ENV VAULT_VERSION="1.6.3"
 ENV JQ_VERSION="1.6"
@@ -21,8 +22,9 @@ ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 COPY extra /extra
 
 RUN apk update && apk upgrade && \
-  apk add --no-cache python2 python3 python3-dev bash git openssh-client openssl ca-certificates tar wget unzip py3-pip curl && \
+  apk add --no-cache python3 python3-dev bash git openssh-client openssl ca-certificates tar wget unzip py3-pip curl && \
   pip3 install --upgrade pip && \
+  pip3 install --upgrade awscli==$(AWS_CLI_VERSION) && \
   /extra/aws-cli/aws-cli.sh && \
   /extra/azure-cli/azure-cli.sh && \
   /extra/ansible/ansible.sh && \
