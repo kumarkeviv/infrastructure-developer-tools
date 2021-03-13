@@ -24,7 +24,7 @@ COPY extra /extra
 RUN apk update && apk upgrade && \
   apk add --no-cache python3 python3-dev bash git openssh-client openssl ca-certificates tar wget unzip py3-pip curl && \
   pip3 install --upgrade pip && \
-  pip3 install --upgrade awscli==$(AWS_CLI_VERSION) && \
+  pip3 install awscli=={AWS_CLI_VERSION} && \
   /extra/aws-cli/aws-cli.sh && \
   /extra/azure-cli/azure-cli.sh && \
   /extra/ansible/ansible.sh && \
@@ -32,6 +32,7 @@ RUN apk update && apk upgrade && \
   /extra/vault/vault.sh && \
   /extra/gcloud/gcloud.sh && \
   /extra/kube/kubectl.sh && \
+  /extra/kube/kubectx.sh && \
   /extra/helm/helm.sh && \
   /extra/jq/jq.sh && \
   rm -rf /extra
