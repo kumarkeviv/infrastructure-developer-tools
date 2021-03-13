@@ -1,6 +1,6 @@
 FROM docker:20.10.5
 
-ARG USER="ci-user"
+ARG USER="kumarvivek"
 ARG ID="1000"
 ENV ANSIBLE_VERSION="2.9.4"
 ENV ANSIBLE_LINT="5.0.2"
@@ -23,8 +23,8 @@ COPY extra /extra
 RUN apk update && apk upgrade && \
   apk add --no-cache python3 python3-dev bash git openssh-client openssl ca-certificates tar wget unzip py3-pip curl && \
   pip3 install --upgrade pip && \
-  /extra/azure-cli/azure-cli.sh && \
   /extra/aws-cli/aws-cli.sh && \
+  /extra/azure-cli/azure-cli.sh && \
   /extra/ansible/ansible.sh && \
   /extra/terraform/terraform.sh && \
   /extra/vault/vault.sh && \
