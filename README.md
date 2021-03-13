@@ -36,7 +36,7 @@ where `${UID}` is the effective user ID and `${GID}` is the effective group ID.
 
 `UserID` and `GroupID` is used for being sure the files inside the container will have the same privileges like files in the system.
 
-To print UID and GID, run the command `id -a` e.g. uid=1000 gid=1001
+To print UID and GID, run the command `id -a` e.g. uid=1000 gid=1001. If want to login as root, don't pass any UID and GID as environment variable.
 
 ## Documentation
 
