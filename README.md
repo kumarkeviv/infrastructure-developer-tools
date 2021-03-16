@@ -11,7 +11,7 @@ Infrastructure developer tools includes set of plugins and services that make it
 
 ![OVERVIEW][overview-infrastructure-developer-tools]
 
-[overview-infrastructure-developer-tools]: https://github.com/kumarkeviv/infrastructure-developer-tools/raw/sys-06-create-detailed-documentation-usecases-ide/docs/assets/overview.png "Overview infrastructure developer tools"
+[overview-infrastructure-developer-tools]: ./docs/assets/overview.png "Overview infrastructure developer tools"
 
 ## Goals
 
@@ -63,7 +63,15 @@ To print UID and GID, run the command `id -a` e.g. uid=1000 gid=1001. If want to
 
 ## Documentation
 
-More details on how to use this container image [here](./docs/README.md)
+[Overview](./docs/README.md#overview)
+[Tools and Services Supported](./docs/README.md#tools-and-services-supported)
+[Getting Started](./docs/README.md#getting-started)
+: [How to build manually](./docs/README.md#how-to-build-manually)
+: [How to use infrastructure images](./docs/README.md#how-to-use-infrastructure-images)
+: [Using the docker image from Docker Hub](./docs/README.md#using-the-docker-image-from-docker-hub)
+[IDE Support](./docs/README.md#ide-support----any-ide-which-support-running-in-container)
+: [VS Code](./docs/README.md#vs-code)
+[Roadmap](./docs/README.md#roadmap)
 
 ## Community
 
