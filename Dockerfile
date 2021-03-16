@@ -1,6 +1,6 @@
 FROM docker:20.10.5
 
-ARG USER="kumarvivek"
+ARG USER="ciuser"
 ARG ID="1000"
 ENV ANSIBLE_VERSION="2.9.4"
 ENV ANSIBLE_LINT="5.0.2"

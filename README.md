@@ -1,5 +1,17 @@
+![IDT][logo]
+
+[logo]: ./docs/assets/logo.png "Infrastructure Developer Tools"
+
+[![Discord](https://img.shields.io/discord/820616124721791007)](https://discord.gg/nVEn3shBjc)
+[![License](https://img.shields.io/github/license/kumarkeviv/infrastructure-developer-tools)](https://github.com/kumarkeviv/infrastructure-developer-tools/blob/main/LICENSE)
+[![DockerHub](https://img.shields.io/docker/pulls/kumarvivek/infrastructure-developer-tools)](https://hub.docker.com/r/kumarvivek/infrastructure-developer-tools)
+
 # Infrastructure Developer Tools
 Infrastructure developer tools includes set of plugins and services that make it easier than ever to build, test and deploy infrastructure. Infrastructure development tools augment your normal code-build-deploy cycles and integrate directly with your preferred cloud provider (Azure, AWS and GCP) with support for Terraform and other services.
+
+![OVERVIEW][overview-infrastructure-developer-tools]
+
+[overview-infrastructure-developer-tools]: ./docs/assets/overview.png "Overview infrastructure developer tools"
 
 ## Goals
 
@@ -7,6 +19,23 @@ Infrastructure developer tools is an Open Source project with the following obje
 
 * Accelerate the setup of development environment for infrastructure developer by including most common services and packages.
 * Seamlessly update packages and dependency for all supported services & plugins.
+
+## Tools and Services Supported
+
+Tools and plugins supported by this version of container image:
+
+| Packages        | Version       |
+| --------------- |--------------:|
+| GCLOUD CLI      | 330.0.0       |
+| AWS CLI         | 1.19.27       |
+| PYTHON          | 3.8           |
+| KUBECTL         | 1.20.0        |
+| KUBECTX         | 0.9.3         |
+| HELM            | 3.5.2         |
+| VAULT           | 1.6.3         |
+| JQ              | 1.6           |
+
+These tools and versions are carefully curated after ensuring there is no conflicts.
 
 ## Getting started
 
@@ -19,12 +48,6 @@ Usage:
     docker build -t infrastructure-developer-tools:{version} {path_repository_directory}
 
 where `{path_repository_directory}` is a directory where `Dockerfile` exist and `${version}` is in the [Semantic Versioning](https://semver.org/) form.
-
-### Automatic deployment over Docker Hub
-
-Every pull resquest on `main` branch will result in a publish of latest image on docker hub
-
-https://hub.docker.com/r/kumarvivek/infrastructure-developer-tools
 
 ### How to use infrastructure images
 
@@ -40,21 +63,18 @@ To print UID and GID, run the command `id -a` e.g. uid=1000 gid=1001. If want to
 
 ## Documentation
 
-More details on how to develop, deploy and operate with landing zones can be found in the reference section [here](./documentation/README.md)
+- [Overview](./docs/README.md#overview)
+- [Tools and Services Supported](./docs/README.md#tools-and-services-supported)
+- [Getting Started](./docs/README.md#getting-started)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [How to build manually](./docs/README.md#how-to-build-manually)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [How to use infrastructure images](./docs/README.md#how-to-use-infrastructure-images)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Using the docker image from Docker Hub](./docs/README.md#using-the-docker-image-from-docker-hub)
+- [IDE Support](./docs/README.md#ide-support----any-ide-which-support-running-in-container)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [VS Code](./docs/README.md#vs-code)
+- [Roadmap](./docs/README.md#roadmap)
 
 ## Community
 
 Feel free to open an issue for feature or bug, or to submit a PR.
 
 In case you have any question, you can reach out to kumar.keviv@gmail.com.
-
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://kumarvivek.pro/cla.
-
-## Code of conduct
-
-For information see the [Code of Conduct FAQ](https://kumarvivek.pro/codeofconduct/faq/) or
-contact [kumar.keviv@gmail.com](mailto:kumar.keviv@gmail.com) with any additional questions or comments.
