@@ -6,7 +6,7 @@ Use this container image together with your [IDE](#vs-code) as part of your deve
 
 ![OVERVIEW][overview-infrastructure-developer-tools]
 
-[overview-infrastructure-developer-tools]: https://github.com/kumarkeviv/infrastructure-developer-tools/raw/sys-06-create-detailed-documentation-usecases-ide/docs/assets/overview.png "Overview infrastructure developer tools"
+[overview-infrastructure-developer-tools]: ./assets/overview.png "Overview infrastructure developer tools"
 
 ## Tools and Services Supported
 
@@ -57,7 +57,7 @@ Download the latest stable image from docker hub
 
 ![PULLINGDOCKERHUB][pulling-docker-hub]
 
-[pulling-docker-hub]: https://github.com/kumarkeviv/infrastructure-developer-tools/raw/sys-06-create-detailed-documentation-usecases-ide/docs/assets/pulling_and_running_infra_dev_tools_container.gif "Pulling image from docker hub"
+[pulling-docker-hub]: ./assets/pulling_and_running_infra_dev_tools_container.gif "Pulling image from docker hub"
 
 ## IDE Support -  any IDE which support running in container
 
@@ -67,7 +67,7 @@ Attach VS Code IDE with a running infrastructure developer tools contaier and bu
 
 ![VSCODE][vscode-infra-tool]
 
-[vscode-infra-tool]: https://github.com/kumarkeviv/infrastructure-developer-tools/raw/sys-06-create-detailed-documentation-usecases-ide/docs/assets/vs_code_infrastructure_developer_tools.gif "Using infrastructure developer tools container with VSCode"
+[vscode-infra-tool]: ./assets/vs_code_infrastructure_developer_tools.gif "Using infrastructure developer tools container with VSCode"
 
 ## Roadmap
 
@@ -78,7 +78,7 @@ Planned future improvements in the co:
 
 ![ROADMAP][roadmap-infrastructure-developer-tools]
 
-[roadmap-infrastructure-developer-tools]: https://github.com/kumarkeviv/infrastructure-developer-tools/raw/sys-06-create-detailed-documentation-usecases-ide/docs/assets/multi_container_support.png "Distributed container for developer tools"
+[roadmap-infrastructure-developer-tools]: ./assets/multi_container_support.png "Distributed container for developer tools"
 
 Having an idea for a new feature in this project?
 Create a [Issue](https://github.com/kumarkeviv/infrastructure-developer-tools/issues).

@@ -1,6 +1,6 @@
 ![IDT][logo]
 
-[logo]: https://github.com/kumarkeviv/infrastructure-developer-tools/raw/sys-06-create-detailed-documentation-usecases-ide/docs/assets/logo.png "Infrastructure Developer Tools"
+[logo]: ./docs/assets/logo.png "Infrastructure Developer Tools"
 
 [![Discord](https://img.shields.io/discord/820616124721791007)](https://discord.gg/nVEn3shBjc)
 [![License](https://img.shields.io/github/license/kumarkeviv/infrastructure-developer-tools)](https://github.com/kumarkeviv/infrastructure-developer-tools/blob/main/LICENSE)
@@ -63,15 +63,15 @@ To print UID and GID, run the command `id -a` e.g. uid=1000 gid=1001. If want to
 
 ## Documentation
 
-[Overview](./docs/README.md#overview)
-[Tools and Services Supported](./docs/README.md#tools-and-services-supported)
-[Getting Started](./docs/README.md#getting-started)
-: [How to build manually](./docs/README.md#how-to-build-manually)
-: [How to use infrastructure images](./docs/README.md#how-to-use-infrastructure-images)
-: [Using the docker image from Docker Hub](./docs/README.md#using-the-docker-image-from-docker-hub)
-[IDE Support](./docs/README.md#ide-support----any-ide-which-support-running-in-container)
-: [VS Code](./docs/README.md#vs-code)
-[Roadmap](./docs/README.md#roadmap)
+- [Overview](./docs/README.md#overview)
+- [Tools and Services Supported](./docs/README.md#tools-and-services-supported)
+- [Getting Started](./docs/README.md#getting-started)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [How to build manually](./docs/README.md#how-to-build-manually)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [How to use infrastructure images](./docs/README.md#how-to-use-infrastructure-images)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Using the docker image from Docker Hub](./docs/README.md#using-the-docker-image-from-docker-hub)
+- [IDE Support](./docs/README.md#ide-support----any-ide-which-support-running-in-container)
+- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [VS Code](./docs/README.md#vs-code)
+- [Roadmap](./docs/README.md#roadmap)
 
 ## Community
 
