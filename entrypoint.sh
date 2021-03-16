@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USER="ci-user"
+USER="ciuser"
 
 if [[ "$(id -u)" != "1000" && "$(id -g)" != "1000" ]]; then
   if [[ ! -z ${UID} && ! -z ${GID} ]]; then

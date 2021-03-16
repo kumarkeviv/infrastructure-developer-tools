@@ -6,13 +6,13 @@
 
 ## Pull Requests
 
-Please create a [GitHub Issue](https://github.com/kumarkeviv/infrastructure-developer-tools/issues) for each issue you'd like to address unless the proposed fix is minor.
+Please create a [Issue](https://github.com/kumarkeviv/infrastructure-developer-tools/issues) for each issue you'd like to address unless the proposed fix is minor.
 
 In your Pull Requests (PR), link to the issue that the PR solves.
 
 Please ensure that the base of your PR is the **main** branch.
 
-Use the [template](https://github.com/kumarkeviv/infrastructure-developer-tools/blob/main/.github/PULL_RRQUEST_TEMPLATE.md) and checklist for creating your PR, once you are ready submit for review.
+Use the [ Pull Request Template](https://github.com/kumarkeviv/infrastructure-developer-tools/blob/main/.github/PULL_RRQUEST_TEMPLATE.md) and checklist for creating your PR, once you are ready submit for review.
 
 ## Reporting Bug
 
